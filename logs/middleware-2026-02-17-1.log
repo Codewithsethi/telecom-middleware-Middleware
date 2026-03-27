@@ -1,0 +1,341 @@
+2026-02-17 09:34:54.436 [restartedMain] INFO  com.telecom.MiddlewareApplication - Starting MiddlewareApplication using Java 21.0.8 with PID 1792 (D:\InterviewPreparation\Middleware\target\classes started by Welcome in D:\InterviewPreparation\Middleware)
+2026-02-17 09:34:54.441 [restartedMain] DEBUG com.telecom.MiddlewareApplication - Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-17 09:34:54.442 [restartedMain] INFO  com.telecom.MiddlewareApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-17 09:34:54.496 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-17 09:34:54.498 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-17 09:34:55.240 [restartedMain] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-17 09:34:55.257 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-17 09:34:55.259 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-17 09:34:55.260 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-17 09:34:55.306 [restartedMain] INFO  org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 806 ms
+2026-02-17 09:34:55.521 [restartedMain] INFO  org.springframework.ws.soap.saaj.SaajSoapMessageFactory - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2026-02-17 09:34:55.530 [restartedMain] DEBUG org.springframework.ws.soap.saaj.SaajSoapMessageFactory - Using MessageFactory class [com.sun.xml.messaging.saaj.soap.ver1_1.SOAPMessageFactory1_1Impl]
+2026-02-17 09:34:55.800 [restartedMain] DEBUG org.springframework.ws.server.endpoint.mapping.PayloadRootAnnotationMethodEndpointMapping - Looking for endpoints in application context: org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@27d428f4, started on Tue Feb 17 09:34:54 IST 2026
+2026-02-17 09:34:55.804 [restartedMain] DEBUG org.springframework.ws.soap.server.endpoint.mapping.SoapActionAnnotationMethodEndpointMapping - Looking for endpoints in application context: org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@27d428f4, started on Tue Feb 17 09:34:54 IST 2026
+2026-02-17 09:34:55.847 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2026-02-17 09:34:55.857 [restartedMain] DEBUG org.springframework.ws.server.endpoint.adapter.DefaultMethodEndpointAdapter - No MethodArgumentResolvers set, using defaults: [org.springframework.ws.server.endpoint.adapter.method.dom.DomPayloadMethodProcessor@231ca819, org.springframework.ws.server.endpoint.adapter.method.MessageContextMethodArgumentResolver@435362b3, org.springframework.ws.server.endpoint.adapter.method.SourcePayloadMethodProcessor@39662460, org.springframework.ws.server.endpoint.adapter.method.XPathParamMethodArgumentResolver@2aab79ff, org.springframework.ws.soap.server.endpoint.adapter.method.SoapMethodArgumentResolver@6c3150d3, org.springframework.ws.soap.server.endpoint.adapter.method.SoapHeaderElementMethodArgumentResolver@34afe11c, org.springframework.ws.server.endpoint.adapter.method.jaxb.XmlRootElementPayloadMethodProcessor@3ce296cd, org.springframework.ws.server.endpoint.adapter.method.jaxb.JaxbElementPayloadMethodProcessor@4d77642f, org.springframework.ws.server.endpoint.adapter.method.StaxPayloadMethodArgumentResolver@2b26129a]
+2026-02-17 09:34:55.858 [restartedMain] DEBUG org.springframework.ws.server.endpoint.adapter.DefaultMethodEndpointAdapter - No MethodReturnValueHandlers set, using defaults: [org.springframework.ws.server.endpoint.adapter.method.dom.DomPayloadMethodProcessor@604aa1e3, org.springframework.ws.server.endpoint.adapter.method.SourcePayloadMethodProcessor@48b607d9, org.springframework.ws.server.endpoint.adapter.method.jaxb.XmlRootElementPayloadMethodProcessor@3e1654fc, org.springframework.ws.server.endpoint.adapter.method.jaxb.JaxbElementPayloadMethodProcessor@253f2366]
+2026-02-17 09:34:55.875 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-17 09:34:55.898 [restartedMain] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-17 09:34:55.902 [restartedMain] INFO  com.telecom.MiddlewareApplication - Started MiddlewareApplication in 1.748 seconds (process running for 2.569)
+2026-02-17 09:35:09.557 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-17 09:35:09.557 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-17 09:35:09.580 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2026-02-17 09:35:09.845 [http-nio-8080-exec-4] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 9178572698 with amount: 100.0
+2026-02-17 09:35:09.845 [http-nio-8080-exec-4] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 9178572698 with amount: 100.0
+2026-02-17 09:35:09.845 [http-nio-8080-exec-4] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 9178572698 with amount: 100.0
+2026-02-17 09:35:09.860 [http-nio-8080-exec-4] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@793186a2] to [http://localhost:8082/ws]
+2026-02-17 09:35:10.004 [http-nio-8080-exec-4] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-17 09:35:10.131 [http-nio-8080-exec-4] ERROR com.telecom.soap.client.RechargeSoapClient - Error calling SOAP Recharge service
+org.springframework.ws.client.WebServiceIOException: I/O error: Connection refused: getsockopt
+	at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:594)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:426)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:412)
+	at com.telecom.soap.client.RechargeSoapClient.callRecharge(RechargeSoapClient.java:29)
+	at com.telecom.adapter.impl.SoapRechargeAdapter.recharge(SoapRechargeAdapter.java:31)
+	at com.telecom.service.RechargeService.processRecharge(RechargeService.java:25)
+	at com.telecom.controller.RechargeController.recharge(RechargeController.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:282)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:386)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:408)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1320)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1139)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1068)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1462)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1433)
+	at org.springframework.ws.transport.http.HttpUrlConnection.getRequestOutputStream(HttpUrlConnection.java:90)
+	at org.springframework.ws.transport.AbstractSenderConnection$RequestTransportOutputStream.createOutputStream(AbstractSenderConnection.java:89)
+	at org.springframework.ws.transport.TransportOutputStream.getOutputStream(TransportOutputStream.java:44)
+	at org.springframework.ws.transport.TransportOutputStream.write(TransportOutputStream.java:71)
+	at com.sun.xml.messaging.saaj.soap.MessageImpl.writeTo(MessageImpl.java:1395)
+	at org.springframework.ws.soap.saaj.SaajSoapMessage.writeTo(SaajSoapMessage.java:268)
+	at org.springframework.ws.transport.AbstractWebServiceConnection.send(AbstractWebServiceConnection.java:48)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendRequest(WebServiceTemplate.java:693)
+	at org.springframework.ws.client.core.WebServiceTemplate.doSendAndReceive(WebServiceTemplate.java:643)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:588)
+	... 49 more
+2026-02-17 09:35:10.139 [http-nio-8080-exec-4] ERROR com.telecom.service.RechargeService - Error processing recharge
+org.springframework.ws.client.WebServiceIOException: I/O error: Connection refused: getsockopt
+	at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:594)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:426)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:412)
+	at com.telecom.soap.client.RechargeSoapClient.callRecharge(RechargeSoapClient.java:29)
+	at com.telecom.adapter.impl.SoapRechargeAdapter.recharge(SoapRechargeAdapter.java:31)
+	at com.telecom.service.RechargeService.processRecharge(RechargeService.java:25)
+	at com.telecom.controller.RechargeController.recharge(RechargeController.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:282)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:386)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:408)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1320)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1139)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1068)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1462)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1433)
+	at org.springframework.ws.transport.http.HttpUrlConnection.getRequestOutputStream(HttpUrlConnection.java:90)
+	at org.springframework.ws.transport.AbstractSenderConnection$RequestTransportOutputStream.createOutputStream(AbstractSenderConnection.java:89)
+	at org.springframework.ws.transport.TransportOutputStream.getOutputStream(TransportOutputStream.java:44)
+	at org.springframework.ws.transport.TransportOutputStream.write(TransportOutputStream.java:71)
+	at com.sun.xml.messaging.saaj.soap.MessageImpl.writeTo(MessageImpl.java:1395)
+	at org.springframework.ws.soap.saaj.SaajSoapMessage.writeTo(SaajSoapMessage.java:268)
+	at org.springframework.ws.transport.AbstractWebServiceConnection.send(AbstractWebServiceConnection.java:48)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendRequest(WebServiceTemplate.java:693)
+	at org.springframework.ws.client.core.WebServiceTemplate.doSendAndReceive(WebServiceTemplate.java:643)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:588)
+	... 49 more
+2026-02-17 09:35:10.147 [http-nio-8080-exec-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.ws.client.WebServiceIOException: I/O error: Connection refused: getsockopt] with root cause
+java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:282)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:386)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:408)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1320)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1139)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1068)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1462)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1433)
+	at org.springframework.ws.transport.http.HttpUrlConnection.getRequestOutputStream(HttpUrlConnection.java:90)
+	at org.springframework.ws.transport.AbstractSenderConnection$RequestTransportOutputStream.createOutputStream(AbstractSenderConnection.java:89)
+	at org.springframework.ws.transport.TransportOutputStream.getOutputStream(TransportOutputStream.java:44)
+	at org.springframework.ws.transport.TransportOutputStream.write(TransportOutputStream.java:71)
+	at com.sun.xml.messaging.saaj.soap.MessageImpl.writeTo(MessageImpl.java:1395)
+	at org.springframework.ws.soap.saaj.SaajSoapMessage.writeTo(SaajSoapMessage.java:268)
+	at org.springframework.ws.transport.AbstractWebServiceConnection.send(AbstractWebServiceConnection.java:48)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendRequest(WebServiceTemplate.java:693)
+	at org.springframework.ws.client.core.WebServiceTemplate.doSendAndReceive(WebServiceTemplate.java:643)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:588)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:426)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:412)
+	at com.telecom.soap.client.RechargeSoapClient.callRecharge(RechargeSoapClient.java:29)
+	at com.telecom.adapter.impl.SoapRechargeAdapter.recharge(SoapRechargeAdapter.java:31)
+	at com.telecom.service.RechargeService.processRecharge(RechargeService.java:25)
+	at com.telecom.controller.RechargeController.recharge(RechargeController.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-17 09:36:07.714 [http-nio-8080-exec-2] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 9178572698 with amount: 1000.0
+2026-02-17 09:36:07.719 [http-nio-8080-exec-2] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 9178572698 with amount: 1000.0
+2026-02-17 09:36:07.719 [http-nio-8080-exec-2] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 9178572698 with amount: 1000.0
+2026-02-17 09:36:07.720 [http-nio-8080-exec-2] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@371a4630] to [http://localhost:8082/ws]
+2026-02-17 09:36:07.721 [http-nio-8080-exec-2] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-17 09:36:08.257 [http-nio-8080-exec-2] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-17 09:36:08.273 [http-nio-8080-exec-2] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 9178572698 with amount 1000.0
+2026-02-17 09:36:08.273 [http-nio-8080-exec-2] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-17 09:36:22.387 [http-nio-8080-exec-3] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 9178572698 with amount: 1000.0
+2026-02-17 09:36:22.388 [http-nio-8080-exec-3] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 9178572698 with amount: 1000.0
+2026-02-17 09:36:22.388 [http-nio-8080-exec-3] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 9178572698 with amount: 1000.0
+2026-02-17 09:36:22.389 [http-nio-8080-exec-3] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@6b24db3c] to [http://localhost:8082/ws]
+2026-02-17 09:36:22.390 [http-nio-8080-exec-3] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-17 09:36:22.406 [http-nio-8080-exec-3] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-17 09:36:22.407 [http-nio-8080-exec-3] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 9178572698 with amount 1000.0
+2026-02-17 09:36:22.407 [http-nio-8080-exec-3] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-17 09:39:13.302 [http-nio-8080-exec-6] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 9178572698 with amount: 1008.0
+2026-02-17 09:39:13.305 [http-nio-8080-exec-6] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 9178572698 with amount: 1008.0
+2026-02-17 09:39:13.305 [http-nio-8080-exec-6] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 9178572698 with amount: 1008.0
+2026-02-17 09:39:13.306 [http-nio-8080-exec-6] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@2f5d805b] to [http://localhost:8082/ws]
+2026-02-17 09:39:13.308 [http-nio-8080-exec-6] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-17 09:39:13.332 [http-nio-8080-exec-6] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-17 09:39:13.333 [http-nio-8080-exec-6] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 9178572698 with amount 1008.0
+2026-02-17 09:39:13.333 [http-nio-8080-exec-6] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-17 09:39:29.707 [RMI TCP Connection(8)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-02-17 09:39:29.709 [RMI TCP Connection(8)-127.0.0.1] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-17 09:39:29.711 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2026-02-17 09:39:29.718 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-17 09:39:29.719 [RMI TCP Connection(8)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-02-17 09:39:31.767 [restartedMain] INFO  com.telecom.MiddlewareApplication - Starting MiddlewareApplication using Java 21.0.8 with PID 9656 (D:\InterviewPreparation\Middleware\target\classes started by Welcome in D:\InterviewPreparation\Middleware)
+2026-02-17 09:39:31.772 [restartedMain] DEBUG com.telecom.MiddlewareApplication - Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-17 09:39:31.772 [restartedMain] INFO  com.telecom.MiddlewareApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-17 09:39:31.808 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-17 09:39:31.809 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-17 09:39:32.368 [restartedMain] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-17 09:39:32.378 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-17 09:39:32.379 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-17 09:39:32.380 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-17 09:39:32.424 [restartedMain] INFO  org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 615 ms
+2026-02-17 09:39:32.523 [restartedMain] INFO  org.springframework.ws.soap.saaj.SaajSoapMessageFactory - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2026-02-17 09:39:32.529 [restartedMain] DEBUG org.springframework.ws.soap.saaj.SaajSoapMessageFactory - Using MessageFactory class [com.sun.xml.messaging.saaj.soap.ver1_1.SOAPMessageFactory1_1Impl]
+2026-02-17 09:39:32.720 [restartedMain] DEBUG org.springframework.ws.server.endpoint.mapping.PayloadRootAnnotationMethodEndpointMapping - Looking for endpoints in application context: org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@6daf5caf, started on Tue Feb 17 09:39:31 IST 2026
+2026-02-17 09:39:32.726 [restartedMain] DEBUG org.springframework.ws.soap.server.endpoint.mapping.SoapActionAnnotationMethodEndpointMapping - Looking for endpoints in application context: org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@6daf5caf, started on Tue Feb 17 09:39:31 IST 2026
+2026-02-17 09:39:32.739 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2026-02-17 09:39:32.745 [restartedMain] DEBUG org.springframework.ws.server.endpoint.adapter.DefaultMethodEndpointAdapter - No MethodArgumentResolvers set, using defaults: [org.springframework.ws.server.endpoint.adapter.method.dom.DomPayloadMethodProcessor@10931106, org.springframework.ws.server.endpoint.adapter.method.MessageContextMethodArgumentResolver@7cf826a9, org.springframework.ws.server.endpoint.adapter.method.SourcePayloadMethodProcessor@2da910f1, org.springframework.ws.server.endpoint.adapter.method.XPathParamMethodArgumentResolver@2ebde723, org.springframework.ws.soap.server.endpoint.adapter.method.SoapMethodArgumentResolver@26aed8d3, org.springframework.ws.soap.server.endpoint.adapter.method.SoapHeaderElementMethodArgumentResolver@1bde7fc1, org.springframework.ws.server.endpoint.adapter.method.jaxb.XmlRootElementPayloadMethodProcessor@7e95dad3, org.springframework.ws.server.endpoint.adapter.method.jaxb.JaxbElementPayloadMethodProcessor@3fd0bedd, org.springframework.ws.server.endpoint.adapter.method.StaxPayloadMethodArgumentResolver@6fe891b4]
+2026-02-17 09:39:32.746 [restartedMain] DEBUG org.springframework.ws.server.endpoint.adapter.DefaultMethodEndpointAdapter - No MethodReturnValueHandlers set, using defaults: [org.springframework.ws.server.endpoint.adapter.method.dom.DomPayloadMethodProcessor@7a0cbff, org.springframework.ws.server.endpoint.adapter.method.SourcePayloadMethodProcessor@57b3ca9a, org.springframework.ws.server.endpoint.adapter.method.jaxb.XmlRootElementPayloadMethodProcessor@6d2fb0e7, org.springframework.ws.server.endpoint.adapter.method.jaxb.JaxbElementPayloadMethodProcessor@4661f9c7]
+2026-02-17 09:39:32.761 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-17 09:39:32.774 [restartedMain] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-17 09:39:32.779 [restartedMain] INFO  com.telecom.MiddlewareApplication - Started MiddlewareApplication in 1.243 seconds (process running for 2.042)
+2026-02-17 09:40:05.184 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-17 09:40:05.184 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-17 09:40:05.199 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2026-02-17 09:40:05.372 [http-nio-8080-exec-1] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 9178572698 with amount: 10078.0
+2026-02-17 09:40:05.372 [http-nio-8080-exec-1] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 9178572698 with amount: 10078.0
+2026-02-17 09:40:05.372 [http-nio-8080-exec-1] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 9178572698 with amount: 10078.0
+2026-02-17 09:40:05.388 [http-nio-8080-exec-1] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@72f03855] to [http://localhost:8082/ws]
+2026-02-17 09:40:05.452 [http-nio-8080-exec-1] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-17 09:40:05.580 [http-nio-8080-exec-1] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-17 09:40:05.612 [http-nio-8080-exec-1] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 9178572698 with amount 10078.0
+2026-02-17 09:40:05.612 [http-nio-8080-exec-1] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-17 09:40:07.145 [http-nio-8080-exec-2] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 9178572698 with amount: 10078.0
+2026-02-17 09:40:07.145 [http-nio-8080-exec-2] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 9178572698 with amount: 10078.0
+2026-02-17 09:40:07.145 [http-nio-8080-exec-2] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 9178572698 with amount: 10078.0
+2026-02-17 09:40:07.145 [http-nio-8080-exec-2] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@22ddc24e] to [http://localhost:8082/ws]
+2026-02-17 09:40:07.151 [http-nio-8080-exec-2] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-17 09:40:07.164 [http-nio-8080-exec-2] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-17 09:40:07.165 [http-nio-8080-exec-2] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 9178572698 with amount 10078.0
+2026-02-17 09:40:07.165 [http-nio-8080-exec-2] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-17 10:31:54.283 [RMI TCP Connection(56)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-02-17 10:31:54.460 [RMI TCP Connection(56)-127.0.0.1] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-17 10:31:54.503 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2026-02-17 10:31:54.605 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-17 10:31:54.610 [RMI TCP Connection(56)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]

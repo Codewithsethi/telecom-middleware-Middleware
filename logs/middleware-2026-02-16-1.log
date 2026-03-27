@@ -1,0 +1,100 @@
+2026-02-16 17:01:40.755 [restartedMain] INFO  com.telecom.MiddlewareApplication - Starting MiddlewareApplication using Java 21.0.8 with PID 13608 (D:\InterviewPreparation\Middleware\target\classes started by Welcome in D:\InterviewPreparation\Middleware)
+2026-02-16 17:01:40.761 [restartedMain] DEBUG com.telecom.MiddlewareApplication - Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-16 17:01:40.762 [restartedMain] INFO  com.telecom.MiddlewareApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-16 17:01:40.797 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-16 17:01:40.798 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-16 17:01:41.405 [restartedMain] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-16 17:01:41.416 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 17:01:41.418 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-16 17:01:41.418 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-16 17:01:41.446 [restartedMain] INFO  org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 647 ms
+2026-02-16 17:01:41.603 [restartedMain] INFO  org.springframework.ws.soap.saaj.SaajSoapMessageFactory - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2026-02-16 17:01:41.618 [restartedMain] DEBUG org.springframework.ws.soap.saaj.SaajSoapMessageFactory - Using MessageFactory class [com.sun.xml.messaging.saaj.soap.ver1_1.SOAPMessageFactory1_1Impl]
+2026-02-16 17:01:41.843 [restartedMain] DEBUG org.springframework.ws.server.endpoint.mapping.PayloadRootAnnotationMethodEndpointMapping - Looking for endpoints in application context: org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@6daf5caf, started on Mon Feb 16 17:01:40 IST 2026
+2026-02-16 17:01:41.846 [restartedMain] DEBUG org.springframework.ws.soap.server.endpoint.mapping.SoapActionAnnotationMethodEndpointMapping - Looking for endpoints in application context: org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@6daf5caf, started on Mon Feb 16 17:01:40 IST 2026
+2026-02-16 17:01:41.863 [restartedMain] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2026-02-16 17:01:41.871 [restartedMain] DEBUG org.springframework.ws.server.endpoint.adapter.DefaultMethodEndpointAdapter - No MethodArgumentResolvers set, using defaults: [org.springframework.ws.server.endpoint.adapter.method.dom.DomPayloadMethodProcessor@c36d2ea, org.springframework.ws.server.endpoint.adapter.method.MessageContextMethodArgumentResolver@49b7c47f, org.springframework.ws.server.endpoint.adapter.method.SourcePayloadMethodProcessor@1143eecc, org.springframework.ws.server.endpoint.adapter.method.XPathParamMethodArgumentResolver@6a371cbe, org.springframework.ws.soap.server.endpoint.adapter.method.SoapMethodArgumentResolver@502c3290, org.springframework.ws.soap.server.endpoint.adapter.method.SoapHeaderElementMethodArgumentResolver@274f80d6, org.springframework.ws.server.endpoint.adapter.method.jaxb.XmlRootElementPayloadMethodProcessor@29f43f7d, org.springframework.ws.server.endpoint.adapter.method.jaxb.JaxbElementPayloadMethodProcessor@7bf41411, org.springframework.ws.server.endpoint.adapter.method.StaxPayloadMethodArgumentResolver@4afd114d]
+2026-02-16 17:01:41.871 [restartedMain] DEBUG org.springframework.ws.server.endpoint.adapter.DefaultMethodEndpointAdapter - No MethodReturnValueHandlers set, using defaults: [org.springframework.ws.server.endpoint.adapter.method.dom.DomPayloadMethodProcessor@11ef71f4, org.springframework.ws.server.endpoint.adapter.method.SourcePayloadMethodProcessor@19e8bb63, org.springframework.ws.server.endpoint.adapter.method.jaxb.XmlRootElementPayloadMethodProcessor@426760d3, org.springframework.ws.server.endpoint.adapter.method.jaxb.JaxbElementPayloadMethodProcessor@603266ab]
+2026-02-16 17:01:41.890 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-16 17:01:41.906 [restartedMain] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-16 17:01:41.910 [restartedMain] INFO  com.telecom.MiddlewareApplication - Started MiddlewareApplication in 1.41 seconds (process running for 2.26)
+2026-02-16 17:01:53.962 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-16 17:01:53.962 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-16 17:01:53.962 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-02-16 17:01:54.202 [http-nio-8080-exec-1] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 8018898174 with amount: 1000.0
+2026-02-16 17:01:54.202 [http-nio-8080-exec-1] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 8018898174 with amount: 1000.0
+2026-02-16 17:01:54.202 [http-nio-8080-exec-1] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 8018898174 with amount: 1000.0
+2026-02-16 17:01:54.234 [http-nio-8080-exec-1] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@54dea9d9] to [http://localhost:8082/ws]
+2026-02-16 17:01:54.361 [http-nio-8080-exec-1] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:01:55.012 [http-nio-8080-exec-1] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:01:55.044 [http-nio-8080-exec-1] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 8018898174 with amount 1000.0
+2026-02-16 17:01:55.044 [http-nio-8080-exec-1] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-16 17:01:55.683 [http-nio-8080-exec-5] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 8018898174 with amount: 1000.0
+2026-02-16 17:01:55.683 [http-nio-8080-exec-5] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 8018898174 with amount: 1000.0
+2026-02-16 17:01:55.684 [http-nio-8080-exec-5] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 8018898174 with amount: 1000.0
+2026-02-16 17:01:55.685 [http-nio-8080-exec-5] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@24f5e352] to [http://localhost:8082/ws]
+2026-02-16 17:01:55.686 [http-nio-8080-exec-5] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:01:55.702 [http-nio-8080-exec-5] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:01:55.703 [http-nio-8080-exec-5] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 8018898174 with amount 1000.0
+2026-02-16 17:01:55.703 [http-nio-8080-exec-5] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-16 17:03:27.397 [http-nio-8080-exec-7] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:27.400 [http-nio-8080-exec-7] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:27.401 [http-nio-8080-exec-7] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:27.401 [http-nio-8080-exec-7] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@1b27a877] to [http://localhost:8082/ws]
+2026-02-16 17:03:27.403 [http-nio-8080-exec-7] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:27.416 [http-nio-8080-exec-7] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:27.416 [http-nio-8080-exec-7] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 8018898173 with amount 1000.0
+2026-02-16 17:03:27.416 [http-nio-8080-exec-7] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-16 17:03:33.179 [http-nio-8080-exec-6] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:33.179 [http-nio-8080-exec-6] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:33.180 [http-nio-8080-exec-6] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:33.180 [http-nio-8080-exec-6] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@5bb89f78] to [http://localhost:8082/ws]
+2026-02-16 17:03:33.182 [http-nio-8080-exec-6] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:33.194 [http-nio-8080-exec-6] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:33.195 [http-nio-8080-exec-6] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 8018898173 with amount 1000.0
+2026-02-16 17:03:33.195 [http-nio-8080-exec-6] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-16 17:03:40.855 [http-nio-8080-exec-3] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:40.856 [http-nio-8080-exec-3] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:40.856 [http-nio-8080-exec-3] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:40.856 [http-nio-8080-exec-3] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@38b65b9c] to [http://localhost:8082/ws]
+2026-02-16 17:03:40.857 [http-nio-8080-exec-3] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:40.872 [http-nio-8080-exec-3] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:40.872 [http-nio-8080-exec-3] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 8018898173 with amount 1000.0
+2026-02-16 17:03:40.873 [http-nio-8080-exec-3] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-16 17:03:43.365 [http-nio-8080-exec-8] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:43.365 [http-nio-8080-exec-8] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:43.366 [http-nio-8080-exec-8] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 8018898173 with amount: 1000.0
+2026-02-16 17:03:43.366 [http-nio-8080-exec-8] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@15e095e4] to [http://localhost:8082/ws]
+2026-02-16 17:03:43.368 [http-nio-8080-exec-8] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:43.386 [http-nio-8080-exec-8] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:43.386 [http-nio-8080-exec-8] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 8018898173 with amount 1000.0
+2026-02-16 17:03:43.386 [http-nio-8080-exec-8] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-16 17:03:51.030 [http-nio-8080-exec-9] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 8018898178 with amount: 1000.0
+2026-02-16 17:03:51.031 [http-nio-8080-exec-9] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 8018898178 with amount: 1000.0
+2026-02-16 17:03:51.031 [http-nio-8080-exec-9] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 8018898178 with amount: 1000.0
+2026-02-16 17:03:51.032 [http-nio-8080-exec-9] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@609400f8] to [http://localhost:8082/ws]
+2026-02-16 17:03:51.034 [http-nio-8080-exec-9] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:51.050 [http-nio-8080-exec-9] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:51.050 [http-nio-8080-exec-9] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 8018898178 with amount 1000.0
+2026-02-16 17:03:51.050 [http-nio-8080-exec-9] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-16 17:03:53.657 [http-nio-8080-exec-10] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 8018898178 with amount: 1000.0
+2026-02-16 17:03:53.657 [http-nio-8080-exec-10] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 8018898178 with amount: 1000.0
+2026-02-16 17:03:53.657 [http-nio-8080-exec-10] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 8018898178 with amount: 1000.0
+2026-02-16 17:03:53.658 [http-nio-8080-exec-10] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@3d8a7aa0] to [http://localhost:8082/ws]
+2026-02-16 17:03:53.658 [http-nio-8080-exec-10] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:53.666 [http-nio-8080-exec-10] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:03:53.667 [http-nio-8080-exec-10] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 8018898178 with amount 1000.0
+2026-02-16 17:03:53.667 [http-nio-8080-exec-10] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-16 17:05:42.900 [http-nio-8080-exec-1] INFO  com.telecom.controller.RechargeController - Received recharge request for MSISDN: 801889817866 with amount: 1000.0
+2026-02-16 17:05:42.901 [http-nio-8080-exec-1] INFO  com.telecom.service.RechargeService - Processing recharge request for MSISDN: 801889817866 with amount: 1000.0
+2026-02-16 17:05:42.902 [http-nio-8080-exec-1] INFO  com.telecom.soap.client.RechargeSoapClient - Calling SOAP Recharge service for MSISDN: 801889817866 with amount: 1000.0
+2026-02-16 17:05:42.902 [http-nio-8080-exec-1] DEBUG org.springframework.ws.client.core.WebServiceTemplate - Opening [org.springframework.ws.transport.http.HttpUrlConnection@6875f90d] to [http://localhost:8082/ws]
+2026-02-16 17:05:42.903 [http-nio-8080-exec-1] DEBUG org.springframework.ws.client.MessageTracing.sent - Sent request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:05:42.921 [http-nio-8080-exec-1] DEBUG org.springframework.ws.client.MessageTracing.received - Received response [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapResponse] for request [SaajSoapMessage {http://telecom.com/recharge}RechargeSoapRequest]
+2026-02-16 17:05:42.922 [http-nio-8080-exec-1] INFO  com.telecom.soap.client.RechargeSoapClient - SOAP Recharge response received - Status: SUCCESS, Message: Recharge successful for 801889817866 with amount 1000.0
+2026-02-16 17:05:42.922 [http-nio-8080-exec-1] INFO  com.telecom.service.RechargeService - Recharge processed successfully
+2026-02-16 20:02:41.543 [RMI TCP Connection(184)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-02-16 20:02:41.547 [RMI TCP Connection(184)-127.0.0.1] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-16 20:02:41.549 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2026-02-16 20:02:41.555 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-16 20:02:41.555 [RMI TCP Connection(184)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
