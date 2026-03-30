@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: middleware
-          image: your-registry/telecom-middleware:latest
+          image: rakeshdocker7/telecom-middleware:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8087
