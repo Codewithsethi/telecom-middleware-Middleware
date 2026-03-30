@@ -17,7 +17,8 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/recharge")
-@CrossOrigin(origins = "http://localhost:4200")
+// Allow local frontend and (for containerized flow) any origin while in dev
+@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:80", "*"})
 public class RechargeController {
 
     private static final Logger logger = LogManager.getLogger(RechargeController.class);

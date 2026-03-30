@@ -24,11 +24,12 @@ public class RechargeSoapClient {
                     request.getMsisdn(), request.getAmount());
         logger.debug("Full SOAP request: {}", request);
 
+        //"http://soapbackend:8090"//http://localhost:8090/ws
         try {
             // 🔥 THIS LINE CONNECTS MIDDLEWARE TO BACKEND 🔥
             RechargeSoapResponse response = (RechargeSoapResponse)
                     webServiceTemplate.marshalSendAndReceive(
-                            "http://localhost:8090/ws",
+                            "http://soapbackend:8090/ws",
                             request
                     );
             
