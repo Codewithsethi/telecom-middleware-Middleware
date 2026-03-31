@@ -24,10 +24,7 @@ spec:
             - name: SERVER_PORT
               value: "8087"
             - name: SOAP_BACKEND_URL
-              value: "http://telecom-soap-backend:8090"
-
-       
-
+              value: "http://soapbackend:8090"
           resources:
             requests:
               memory: "256Mi"
