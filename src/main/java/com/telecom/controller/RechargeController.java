@@ -30,9 +30,17 @@ public class RechargeController {
 
     @PostMapping
     public ResponseEntity<RechargeResponse> recharge(@Valid @RequestBody RechargeRequest request) {
-        logger.info("Received recharge request for MSISDN: {} with amount: {}", 
+        logger.info("Transaction Started: Received recharge request for MSISDN: {} with amount: {}", 
                     request.getMobile(), request.getAmount());
-        RechargeResponse response = service.processRecharge(request);
-        return ResponseEntity.ok(response);
+        logger.info("Step 1: Request validation completed");
+        
+        try {
+            RechargeResponse response = service.processRecharge(request);
+            logger.info("Transaction Completed: Response sent to client");
+            return ResponseEntity.ok(response);
+        } catch (Exception e) {
+            logger.error("Transaction Failed: Unable to process recharge request", e);
+            throw e;
+        }
     }
 }

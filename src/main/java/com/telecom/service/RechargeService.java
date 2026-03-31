@@ -19,15 +19,21 @@ public class RechargeService {
     }
 
     public RechargeResponse processRecharge(RechargeRequest request) {
-        logger.info("Processing recharge request for MSISDN: {} with amount: {}", 
+        logger.info("Transaction Started: Processing recharge for MSISDN: {} with amount: {}", 
                     request.getMobile(), request.getAmount());
+        logger.info("Step 1: Validating request parameters");
+        
         try {
+            logger.info("Step 2: Converting REST request to SOAP format");
             RechargeResponse response = adapter.recharge(request);
-            logger.info("Recharge processed successfully - Status: {}, Message: {}", 
+            
+            logger.info("Step 3: Processing backend response");
+            logger.info("Transaction Completed Successfully - Status: {}, Message: {}", 
                         response.getStatus(), response.getMessage());
             return response;
         } catch (Exception e) {
-            logger.error("Error processing recharge", e);
+            logger.error("Transaction Failed: Backend calling failed - {}", e.getMessage());
+            logger.error("Step 3: Error occurred during backend communication", e);
             throw e;
         }
     }

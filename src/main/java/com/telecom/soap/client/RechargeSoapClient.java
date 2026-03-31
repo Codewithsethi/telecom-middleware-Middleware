@@ -20,11 +20,12 @@ public class RechargeSoapClient {
 
     public RechargeSoapResponse callRecharge(RechargeSoapRequest request) {
         
-        logger.info("Calling SOAP Recharge service for MSISDN: {} with amount: {}", 
+        logger.info("Step 2.1: Preparing SOAP request for backend call");
+        logger.debug("SOAP request details - MSISDN: {}, Amount: {}", 
                     request.getMsisdn(), request.getAmount());
-        logger.debug("Full SOAP request: {}", request);
-
-        //"http://soapbackend:8090"//http://localhost:8090/ws
+        
+        logger.info("Step 2.2: Calling SOAP backend at http://soapbackend:8090/ws");
+        
         try {
             // 🔥 THIS LINE CONNECTS MIDDLEWARE TO BACKEND 🔥
             RechargeSoapResponse response = (RechargeSoapResponse)
@@ -33,13 +34,14 @@ public class RechargeSoapClient {
                             request
                     );
             
-            logger.info("SOAP Recharge response received - Status: {}, Message: {}", 
+            logger.info("Step 2.3: SOAP response received from backend");
+            logger.info("Backend response - Status: {}, Message: {}", 
                         response.getStatus(), response.getMessage());
-            logger.debug("Full SOAP response: {}", response);
             return response;
             
         } catch (Exception e) {
-            logger.error("Error calling SOAP Recharge service", e);
+            logger.error("Transaction Failed: Backend calling failed - check the URL http://soapbackend:8090/ws");
+            logger.error("Step 2.3: Error during SOAP backend communication", e);
             throw e;
         }
     }
