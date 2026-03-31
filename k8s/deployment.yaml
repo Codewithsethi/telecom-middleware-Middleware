@@ -1,12 +1,12 @@
-apiVersion: apps/v1
+apiVersion: apps/110
 kind: Deployment
 metadata:
   name: telecom-middleware
   labels:
     app: telecom-middleware
-    version: v1
+    version: 110
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: telecom-middleware
