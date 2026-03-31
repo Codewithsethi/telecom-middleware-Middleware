@@ -26,18 +26,21 @@ spec:
               value: "8087"
             - name: SOAP_BACKEND_URL
               value: "http://telecom-soap-backend:8090"
+
           livenessProbe:
             httpGet:
-              path: /api/recharge
+              path: /
               port: 8087
-            initialDelaySeconds: 30
+            initialDelaySeconds: 60
             periodSeconds: 15
+
           readinessProbe:
             httpGet:
-              path: /api/recharge
+              path: /
               port: 8087
-            initialDelaySeconds: 15
+            initialDelaySeconds: 30
             periodSeconds: 10
+
           resources:
             requests:
               memory: "256Mi"
