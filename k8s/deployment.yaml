@@ -1,10 +1,9 @@
-apiVersion: apps/110
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: telecom-middleware
   labels:
     app: telecom-middleware
-    version: 110
 spec:
   replicas: 1
   selector:
@@ -27,19 +26,7 @@ spec:
             - name: SOAP_BACKEND_URL
               value: "http://telecom-soap-backend:8090"
 
-          livenessProbe:
-            httpGet:
-              path: /
-              port: 8087
-            initialDelaySeconds: 60
-            periodSeconds: 15
-
-          readinessProbe:
-            httpGet:
-              path: /
-              port: 8087
-            initialDelaySeconds: 30
-            periodSeconds: 10
+       
 
           resources:
             requests:
