@@ -30,7 +30,7 @@ public class RechargeSoapClient {
             // 🔥 THIS LINE CONNECTS MIDDLEWARE TO BACKEND 🔥
             RechargeSoapResponse response = (RechargeSoapResponse)
                     webServiceTemplate.marshalSendAndReceive(
-                            "http://soapbackend:8090/ws",
+                            "http://telecom-soap-backend:8090/ws",
                             request
                     );
             
