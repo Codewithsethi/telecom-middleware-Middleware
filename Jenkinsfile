@@ -4,7 +4,7 @@ pipeline {
   environment {
     APP_NAME = 'telecom-middleware'
     DOCKER_HUB = "rakeshdocker7"
-    KUBECONFIG = "C:\\ProgramData\\Jenkins\\.kube\\config"
+    KUBECONFIG = "C:\\Users\\Welcome\\.kube\\config"
   }
 
   options {
